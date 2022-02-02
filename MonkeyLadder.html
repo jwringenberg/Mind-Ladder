@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Mind Ladder</title>
+    <script src="jq.js"></script>
+    <script src = "code.js"></script>
+    <link rel = "stylesheet" href = "style.css">
+  </head>
+
+   <body onload = "initialHide()">
+    <center>
+
+    <h1>Mind Ladder</h1>
+    <p>[Remember The Sequence]</p>
+    <div id = "startButton">
+       <input type = "button" class = "button"  id ="startB" onclick = "reSet()" value = "Play">
+    </div>
+     <p id = "levelInfo"></p>
+
+    <br><hr>
+    <table>
+      <tr>
+        <td id = "button0"><button class = "button" id="button0" onclick = "sequence(0)"><span id="0"></span></button></td>
+        <td id = "button1"><button class = "button" id="button1" onclick = "sequence(1)"><span id="1"></span></button></td>
+        <td id = "button2"><button class = "button" id="button2" onclick = "sequence(2)"><span id="2"></span></button></td>
+        <td id = "button3"><button class = "button" id="button3" onclick = "sequence(3)"><span id="3"></span></button></td>
+        <td id = "button4"><button class = "button" id="button4" onclick = "sequence(4)"><span id="4"></span></button></td>
+        <td id = "button5"><button class = "button" id="button5" onclick = "sequence(5)"><span id="5"></span></button></td>
+      </tr>
+      <tr>
+        <td id = "button6"><button class = "button" id="button6"  onclick = "sequence(6)"><span id="6"></span></button></td>
+        <td id = "button7"><button class = "button" id="button7" onclick = "sequence(7)"><span id="7"></span></button></td>
+        <td id = "button8"><button class = "button" id="button8" onclick = "sequence(8)"><span id="8"></span></button></td>
+        <td id = "button9"><button class = "button" id="button9" onclick = "sequence(9)"><span id="9"></span></button></td>
+        <td id = "button10"><button class = "button" id="button10" onclick = "sequence(10)"><span id="10"></span></button></td>
+        <td id = "button11"><button class = "button" id="button11" onclick = "sequence(11)"><span id="11"></span></button></td>
+      </tr>
+      <tr>
+        <td id = "button12"><button class = "button" id="button12" onclick = "sequence(12)"><span id="12"></span></button></td>
+        <td id = "button13"><button class = "button" id="button13" onclick = "sequence(13)"><span id="13"></span></button></td>
+        <td id = "button14"><button class = "button" id="button14" onclick = "sequence(14)"><span id="14"></span></button></td>
+        <td id = "button15"><button class = "button" id="button15" onclick = "sequence(15)"><span id="15"></span></button></td>
+        <td id = "button16"><button class = "button" id="button16" onclick = "sequence(16)"><span id="16"></span></button></td>
+        <td id = "button17"><button class = "button" id="button17" onclick = "sequence(17)"><span id="17"></span></button></td>
+      </tr>
+      <tr>
+        <td id = "button18"><button class = "button" id="button18" onclick = "sequence(18)"><span id="18"></span></button></td>
+        <td id = "button19"><button class = "button" id="button19" onclick = "sequence(19)"><span id="19"></span></button></td>
+        <td id = "button20"><button class = "button" id="button20" onclick = "sequence(20)"><span id="20"></span></button></td>
+        <td id = "button21"><button class = "button" id="button21" onclick = "sequence(21)"><span id="21"></span></button></td>
+        <td id = "button22"><button class = "button" id="button22" onclick = "sequence(22)"><span id="22"></span></button></td>
+        <td id = "button23"><button class = "button" id="button23" onclick = "sequence(23)"><span id="23"></span></button></td>
+      </tr>
+      <tr>
+        <td id = "button24"><button class = "button" id="button24" onclick = "sequence(24)"><span id="24"></span></button></td>
+        <td id = "button25"><button class = "button" id="button25" onclick = "sequence(25)"><span id="25"></span></button></td>
+        <td id = "button26"><button class = "button" id="button26" onclick = "sequence(26)"><span id="26"></span></button></td>
+        <td id = "button27"><button class = "button" id="button27" onclick = "sequence(27)"><span id="27"></span></button></td>
+        <td id = "button28"><button class = "button" id="button28" onclick = "sequence(28)"><span id="28"></span></button></td>
+        <td id = "button29"><button class = "button" id="button29" onclick = "sequence(29)"><span id="29"></span></button></td>
+      </tr>
+    </table>
+  </center>
+  </body>
+</html>
